@@ -7,8 +7,7 @@ It starts from running a very basic script and gradually leads to a multi-servic
 
 ## How to Use the Repository
 
-1. [Play with Docker Classroom](https://training.play-with-docker.com/microservice-orchestration/) helps to start your Docker exploration journey without any additional overhead of installing and configuring Docker locally.
-2. Alternatively, if running on a local Docker installation, follow instructions in the `README`
+ If running on a local Docker installation, follow instructions in the `README`
 To run illustrated codes `Docker` and `Compose` need to be installed on the machine.
 
 ## References
