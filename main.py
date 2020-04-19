@@ -19,7 +19,6 @@ def api(url):
     qs = request.query_string.decode("utf-8")
     if qs != "":
         url += "?" + qs
-
     jsonlinks = redis_conn.get(url)
     if not jsonlinks:
         links = extract_links(url)
@@ -31,7 +30,6 @@ def api(url):
         mimetype="application/json",
         response=jsonlinks
     )
-
     return response
 
 app.run(host="0.0.0.0")
