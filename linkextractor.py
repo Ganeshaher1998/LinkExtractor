@@ -4,7 +4,6 @@ import sys
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-
 def extract_links(url):
     res = requests.get(url)
     soup = BeautifulSoup(res.text, "html.parser")
@@ -17,7 +16,6 @@ def extract_links(url):
             "href": urljoin(base, link.get("href"))
         })
     return links
-
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("\nUsage:\n\t{} <URL>\n".format(sys.argv[0]))
