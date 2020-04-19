@@ -1,5 +1,4 @@
 # LinkExtractor
-# Link Extractor
 
 Link Extractor app scrapes links from a given web page.
 This repository illustrates step by step approach to learn [Docker](https://www.docker.com/).
@@ -15,10 +14,6 @@ To run illustrated codes `Docker` and `Compose` need to be installed on the mach
 
 * [Install Docker](https://docs.docker.com/engine/installation/)
 * [Install Docker Compose](https://docs.docker.com/compose/install/)
-
-
-
-# Link Extractor: Step 5
 
 A web application to extract links and anchor texts from a given web page and analyze link statistics.
 
