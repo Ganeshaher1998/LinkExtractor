@@ -1,19 +1,17 @@
-# Link Extractor: Step 5
+# Link Extractor
 
-A web application to extract links and anchor texts from a given web page and analyze link statistics.
+Link Extractor app scrapes links from a given web page.
+This repository illustrates step by step approach to learn [Docker](https://www.docker.com/).
 
-## Changes from the previous step
+It starts from running a very basic script and gradually leads to a multi-service container orchestration (AKA micro-service architecture).
 
-* Another `Dockerfile` is added for the PHP web application to avoid live file mounting
-* A Redis container is added for caching using the official Redis Docker image
-* The API service talks to the Redis service to avoid downloading and parsing pages that were already scraped before
+## How to Use the Repository
 
-## Try it out
+1. [Play with Docker Classroom](https://training.play-with-docker.com/microservice-orchestration/) helps to start your Docker exploration journey without any additional overhead of installing and configuring Docker locally.
+2. Alternatively, if running on a local Docker installation, follow instructions in the `README`
+To run illustrated codes `Docker` and `Compose` need to be installed on the machine.
 
-```
-$ docker-compose up --build
-```
+## References
 
-Open http://localhost/?url=http%3A%2F%2Fodu.edu%2F in a web browser.
-
-Press `Ctrl + C` to terminate the service.
+* [Install Docker](https://docs.docker.com/engine/installation/)
+* [Install Docker Compose](https://docs.docker.com/compose/install/)
