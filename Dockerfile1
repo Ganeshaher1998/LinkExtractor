@@ -1,4 +1,4 @@
 FROM       php:7-apache
 LABEL      maintainer="Ganesh aher<@ganeshaher1998@>"
 
-COPY       . /var/www/html/
+COPY       . /var/www/html/kratos
